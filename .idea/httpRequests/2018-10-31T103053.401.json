@@ -1,0 +1,7 @@
+{
+  "timestamp": 1541014253775,
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "Full authentication is required to access this resource",
+  "path": "/oauth/token"
+}

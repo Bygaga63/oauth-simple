@@ -1,0 +1,38 @@
+POST http://localhost:8081/oauth/token?grant_type=client_credentials&client_id=my-trusted-client
+Accept: */*
+Cache-Control: no-cache
+
+{ "grant_type": "client_credentials", "client_id": "my-trusted-client" }
+
+<> 2018-10-31T103244.401.json
+
+###
+
+POST http://localhost:8081/oauth/token?grant_type=client_credentials&client_id=my-trusted-client
+Accept: */*
+Cache-Control: no-cache
+
+{ "grant_type": "client_credentials", "client_id": "my-trusted-client" }
+
+<> 2018-10-31T103151.401.json
+
+###
+
+POST http://localhost:8081/oauth/token
+Accept: */*
+Cache-Control: no-cache
+
+{ "grant_type": "client_credentials", "client_id": "my-trusted-client" }
+
+<> 2018-10-31T103053.401.json
+
+###
+
+GET http://localhost:8989/foo
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-31T102550.401.json
+
+###
+
